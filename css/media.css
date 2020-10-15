@@ -1,0 +1,522 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.menu ul li a{
+	padding: 0 0!important;
+	text-align: right;
+} 
+.logo{
+	max-width: 84%;
+}
+/*slider start*/
+.s_img {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+/*tour start*/
+.t_text {
+    margin: 60px 0;
+}
+.t_text h1 {
+    font-size: 21px;
+}
+.t_text h2 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.t_text p {
+	font-size: 11px;
+	margin: 0;
+}
+.t_text h3 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.t_line {
+    border-bottom-width: 2px;
+}
+/*asset starr*/
+.a_text {
+    margin: 60px 0;
+}
+.a_text h1 {
+    font-size: 21px;
+}
+.a_text h2 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.a_text p {
+	font-size: 11px;
+	margin: 0;
+}
+.a_text h3 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.a_line {
+    border-bottom-width: 2px;
+}
+
+/*contact start*/
+.c_text h1 {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.f_submit {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+/*services start*/
+.ser_title{
+	margin-top: 60px;
+}
+.ser_title h1 {
+    font-size: 21px;
+}
+.ser_title h2 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.ser_img{
+	text-align: center;
+	margin-top: 40px;
+}
+.ser_text h1{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+/*customer start*/
+.customer{
+	margin-top: 60px;
+}
+.customer h1{
+	font-size: 22px;
+	margin-top: 40px;
+	letter-spacing: 2px;
+}
+.customer p{
+	font-size: 8px;
+	margin-bottom: 40px;
+	letter-spacing: 0;
+}
+/*customer end*/
+
+/*best start*/
+.b_text {
+    margin: 60px 0;
+}
+.b_text h1 {
+    font-size: 21px;
+}
+.b_text h2 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.b_text p {
+	font-size: 11px;
+	margin: 0;
+}
+.b_text h3 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.b_line {
+    border-bottom-width: 2px;
+}
+/*ibister start*/
+.seb_img {
+    margin-top: 60px;
+}
+.seb_text {
+    margin-bottom: 60px;
+}
+/*office location*/
+.ser_img {
+    margin-top: 30px;
+}
+.office_location h1 {
+    margin: 25px 0;
+}
+.office_location p {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+footer {
+    margin-top: 48px;
+}
+.copyright p{
+	font-size: 12px;
+}
+.p2{
+	font-size: 12px;
+}
+.f_icon{
+	font-size: 12px;
+}
+.f_icon i{
+	margin-left: 2px;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu ul li a{
+	padding: 0 0!important;
+	text-align: right;
+} 
+.logo{
+	max-width: 84%;
+}
+/*slider start*/
+.s_img {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.s_img_1 {
+    margin-top: 130px;
+}
+/*tour start*/
+.t_text {
+    margin: 70px 0;
+}
+.t_text h1 {
+    font-size: 22px;
+}
+.t_text h2 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.t_text p {
+	font-size: 12px;
+	margin: 0;
+}
+.t_text h3 {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.t_line {
+    border-bottom-width: 2px;
+}
+/*asset start*/
+.a_text {
+    margin: 70px 0;
+}
+.a_text h1 {
+    font-size: 22px;
+}
+.a_text h2 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.a_text p {
+	font-size: 12px;
+	margin: 0;
+}
+.a_text h3 {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.a_line {
+    border-bottom-width: 2px;
+}
+
+/*contact start*/
+.c_text h1 {
+    font-size: 16px;
+}
+.f_submit {
+	margin-top: 30px;
+    font-size: 14px;
+}
+/*services start*/
+.ser_title{
+	margin-top: 70px;
+}
+.ser_img{
+	text-align: center;
+}
+.ser_text{
+	text-align: center;
+}
+.ser_text h1{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.ser_text p{
+	margin-bottom: 30px;
+}
+/*customer start*/
+.customer{
+	margin-top: 40px;
+
+}
+.customer h1{
+	margin-top: 65px;
+	font-size: 36px;
+	letter-spacing: 6px;
+}
+.customer p{
+	margin-bottom: 65px;
+	font-size: 11px;
+
+}
+
+/*best start*/
+.b_text {
+    margin: 70px 0;
+}
+.b_text h1 {
+    font-size: 22px;
+}
+.b_text h2 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.b_text p {
+	font-size: 12px;
+	margin: 0;
+}
+.b_text h3 {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.b_line {
+    border-bottom-width: 2px;
+}
+/*sebester start*/
+.seb_img{
+	margin-top: 70px;
+}
+.seb_text{
+	margin-bottom: 70px;
+}
+.seb_text p{
+	font-size: 13px;	
+}
+/*location start*/
+.office_location{
+	padding-left: 85px;
+}
+
+.office_location h1 {
+    margin: 25px 0;
+}
+.office_location p {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+footer {
+    margin-top: 58px;
+}
+.f_icon i {
+    margin-left: 8px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a{
+	padding: 0 0!important;
+	text-align: right;
+} 
+/*slider start*/
+.s_img {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.s_img_1 {
+    margin-top: 160px;
+}
+/*tour start*/
+.t_text {
+    margin-top: 80px;
+}
+.t_text h1 {
+    font-size: 21px;
+}
+.t_text h2 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.t_text p {
+	font-size: 11px;
+	margin: 0;
+}
+.t_text h3 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.t_line {
+    border-bottom-width: 2px;
+}
+
+.t_img {
+    margin-top: 84px;
+}
+/*asset start*/
+.a_text {
+    margin-top: 74px;
+}
+.a_text h1 {
+    font-size: 21px;
+}
+.a_text h2 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.a_text p {
+	font-size: 10px;
+	margin: 0;
+}
+.a_text h3 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.a_line {
+    border-bottom-width: 2px;
+}
+
+.a_img {
+    margin: 80px 0;
+}
+/*contact start*/
+.c_text h1 {
+    font-size: 16px;
+}
+.f_submit{
+	font-size: 14px;
+}
+/*services start*/
+.ser_text h1{
+	font-size: 19px;
+}
+.ser_text p{
+	font-size: 14px;
+}
+/*customer start*/
+.customer {
+    margin-top: 80px;
+}
+.customer h1{
+	margin-top: 80px;
+
+}
+.customer p{
+	margin-bottom: 80px
+}
+/*best start*/
+.b_text {
+    margin-top: 80px;
+}
+.b_text h1 {
+    font-size: 21px;
+}
+.b_text h2 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.b_text p {
+	font-size: 11px;
+	margin: 0;
+}
+.b_text h3 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.b_line {
+    border-bottom-width: 2px;
+}
+
+.b_img {
+    margin-top: 84px;
+}
+/*seb start*/
+.seb_img{
+	margin-top: 80px;
+}
+.seb_text{
+	margin-bottom: 80px;
+}
+.seb_text p{
+	font-size: 14px;	
+}
+/*office location start*/
+
+.office_location h1 {
+    margin: 20px 0;
+    font-size: 16px;
+}
+.office_location p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+footer {
+    margin-top: 64px;
+}
+.f_icon i {
+    margin-left: 10px;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+/*tour start*/
+.t_text h1 {
+    font-size: 27px;
+}
+.t_text h2 {
+    font-size: 20px;
+}
+.t_text p {
+	font-size: 14px;
+}
+.t_img{
+	width: 97%;
+}
+/*asset start*/
+.a_text h1 {
+    font-size: 25px;
+}
+.a_text h2 {
+    font-size: 18px;
+}
+.a_text p {
+	font-size: 13px;
+}
+/*services start*/
+.ser_text h1{
+	font-size: 19px;
+}
+.ser_text p{
+	font-size: 14px;
+}
+
+/*best start*/
+.b_text h1 {
+    font-size: 27px;
+}
+.b_text h2 {
+    font-size: 20px;
+}
+.b_text p {
+	font-size: 14px;
+}
+.b_img{
+	width: 97%;
+}
+.f_icon i {
+    margin-left: 12px;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+} 

@@ -1,0 +1,385 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	/*color: #010101;*/
+}
+
+/*header start*/
+header{
+	background-color: #001c37;
+	padding: 20px 0 0 0;
+}
+.c_nav{
+	padding: .5rem 0;
+}
+.logo{}
+.nav_btn {
+    background-color: #fde52c;
+}
+.nav_btn:focus{
+	outline: 0;
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ffffff !important;
+	padding: 0 20px !important;
+	transition: 0.3s; 
+
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #fde52c !important;
+}
+/*banner start*/
+
+.slider{
+	background-image: url(../images/banner.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center;
+	
+}
+.s_img{
+	margin-top: 120px;
+	margin-bottom: 150px;
+}
+.s_img_1{
+	margin-top: 250px;
+
+}
+/*banner end*/
+
+/*tour start*/
+.t_text{
+	margin: 100px 0;
+}
+.t_text h1{
+	margin: 0;
+	font-size: 31px;
+	font-weight: 700;
+	color: #002e5b;
+	text-transform: uppercase;
+}
+.t_text h2{
+	margin: 20px 0;
+	font-family: 'Segoe UI Emoji', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	color: #666666;
+
+	
+}
+.t_text p{
+	margin: 0;
+	color: #333333;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.t_text h3{
+	font-size: 16px;
+	font-weight: 700;
+	color: #002e5b;
+	text-transform: uppercase;
+	transition: .3s;
+}
+.t_text h3:hover{
+	color: #fde52c;
+	cursor: pointer;
+}
+.t_line{
+	margin-bottom: 5px; 
+    border-bottom-style: solid; 
+    border-bottom-width: 3px; 
+    width: fit-content; 
+}
+.t_img{
+	margin-top: 100px;
+}
+/*tour end*/
+
+/*asset start*/
+.asset{
+	background-color: #f4f4f4;
+}
+.a_img{
+	margin: 100px 0;
+}
+.a_text{
+	margin-top: 90px;
+}
+.a_text h1{
+	margin: 0;
+	font-size: 30px;
+	font-weight: 700;
+	color: #002e5b;
+	text-transform: uppercase;
+}
+.a_text h2{
+	margin: 16px 0;
+	font-family: 'Segoe UI Emoji', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	color: #666666;
+	    word-spacing: 2px;
+
+	
+}
+.a_text p{
+	margin: 0;
+	color: #333333;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+.a_text h3{
+	font-size: 16px;
+	font-weight: 700;
+	color: #002e5b;
+	text-transform: uppercase;
+	transition: .3s;
+}
+.a_text h3:hover{
+	color: #fde52c;
+	cursor: pointer;
+}
+.a_line{
+	margin-bottom: 5px; 
+    border-bottom-style: solid; 
+    border-bottom-width: 3px; 
+    width: fit-content; 
+}
+
+/*contact start*/
+.contact{
+	background-color: #001c37;
+}
+.c_text h1{
+	margin: 35px 0;
+	font-size: 21px;
+	color: #ffffff;
+}
+.f_submit{
+	margin-top: 25px;
+	width: 100%;
+	height: 40px;
+	background-color: #fde52c;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #002e5b;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+.f_submit:focus {
+	outline: 0;
+	box-shadow: none;
+}
+.f_submit:hover{
+	background-color: white;
+}
+
+/*services start*/
+
+.ser_title{
+	margin-top: 70px;
+}
+
+.ser_title h1{
+	font-size: 30px;
+	font-weight: 700;
+	color: #002e5b;
+	text-transform: uppercase;
+}
+.ser_title h2{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-family: 'Segoe UI Emoji', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	color: #666666;
+}
+.ser_text h1{
+	margin: 20px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+    color: #002e5b;
+	text-transform: uppercase;
+}
+.ser_text p{
+	margin-bottom: 0;
+	font-family: 'Segoe UI Emoji', sans-serif;
+	font-size: 15px;
+    color: #333333;
+    word-spacing: 1px;
+}
+
+/*services end*/
+
+/*customer start*/
+
+.customer{
+	margin-top: 100px;
+	background-image: url(../images/customer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center;
+}
+.customer h1{
+	margin-top: 85px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+    color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+.customer p{
+	margin-bottom: 85px;
+	font-family: 'Segoe UI Emoji', sans-serif;
+	font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/*customer end*/
+
+
+/*best start*/
+.b_text{
+	margin: 100px 0;
+}
+.b_text h1{
+	margin: 0;
+	font-size: 31px;
+	font-weight: 700;
+	color: #002e5b;
+	text-transform: uppercase;
+}
+.b_text h2{
+	margin: 20px 0;
+	font-family: 'Segoe UI Emoji', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	color: #666666;
+
+	
+}
+.b_text p{
+	margin: 0;
+	color: #333333;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.b_text h3{
+	font-size: 16px;
+	font-weight: 700;
+	color: #002e5b;
+	text-transform: uppercase;
+	transition: .3s;
+}
+.b_text h3:hover{
+	cursor: pointer;
+	color: #fde52c;
+}
+.b_line{
+	margin-bottom: 5px; 
+    border-bottom-style: solid; 
+    border-bottom-width: 3px; 
+    width: fit-content; 
+}
+.b_img{
+	margin-top: 100px;
+}
+/*best end*/
+
+/*sebester start*/
+.sebester{
+	background-color: #07294b;
+	/*min-height: 400px;*/
+
+}
+.seb_img{
+	margin-top: 100px;
+}
+.seb_text{
+	margin-bottom: 100px;
+}
+.seb_text p{
+	margin-top: 35px;
+	font-size: 16px;
+	font-family: 'Myriad Pro', sans-serif;
+	color: #ffffff;
+	
+}
+.seb_text h2{
+	margin-top: 40px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+
+
+}
+/*sebester end*/
+
+/*location start*/
+.office_location h1{
+	margin: 30px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+    color: #002e5b;
+	text-transform: uppercase;
+}
+.office_location p{
+	font-family: 'Segoe UI Emoji', sans-serif;
+}
+.office_location i{
+	color: #06233f;
+	transition: .3s;
+}
+.office_location i:hover{
+	color: #fde52c;
+	cursor: pointer;
+}
+/*location end*/
+
+/*footer start*/
+
+footer{
+	margin-top: 84px;
+	background-color: #001c37; 
+}
+.copyright{
+	margin: 35px 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+}
+.p2{
+	font-family: 'Montserrat', sans-serif;
+	color: #fde52c;
+}
+.f_icon{
+	color: #ffffff;
+	margin-top: 35px;
+}
+.f_icon i{
+	margin-left: 15px;
+	transition: .3s;
+}
+.f_icon i:hover{
+	color: #fde52c;
+	cursor: pointer;
+}
+/*footer end*/
+
